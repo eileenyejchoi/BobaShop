@@ -95,7 +95,7 @@ public class DrinkController {
 		return "view.jsp";
 	}
 	
-	@GetMapping("/boba/delete/{id}")
+	@GetMapping("/boba/delete/{id}") // still working to understand DeleteMapping annotation and authorizing users with Spring Security
 	public String deleteDrink(@PathVariable("id") Long id, Model model, HttpSession session) {
 		if(session.getAttribute("userId") == null) {
 			return "redirect:/";
