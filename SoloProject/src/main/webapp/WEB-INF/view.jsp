@@ -48,6 +48,7 @@
 				<c:otherwise>
 				</c:otherwise>
 			</c:choose>
+		// hides the delete button when user.id does not match, only here as alternate delete route due to errors in edit form
 	</div>	
 </body>
 </html>
