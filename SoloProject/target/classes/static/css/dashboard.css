@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: auto;
+}
+
+body {
+	background-color: #ffbbc7;
+}
+
+h1, h3 {
+	color: saddlebrown;
+}
+
+table {
+	background: white;
+}

@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: auto;
+}
+
+body {
+	background-color: #ffbbc7;
+}
+
+h1 {
+	padding: 20px;
+	color: saddlebrown;
+}
+
+.account, .drinks {
+	background-color: white;
+}
